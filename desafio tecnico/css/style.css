@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #b5dbd3;
+}
+
+h1 {
+    font-family: 'FonteLogo';
+}
+
+a {
+    font-family: 'FonteTexto';
+}
+
+header {
+    background-color: #ebf7ed;
+    color: #1EA385;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    color: #1EA385;
+}
+
+.Pers {
+    color: #1EA385;
+    font-family: 'FonteTexto';
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 34px;
+}
+
+.faixaDeBaixo {
+    background-color: #1EA385; 
+    height: 300px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.quadro {
+    width: 200px;
+    height: 400px;
+    background-color: #ebf7ed;
+    position: relative;
+    top: -5%;
+    margin: 20px;
+    padding: 20px;
+    float: left; /* Para alinhar os quadrados horizontalmente */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os elementos dentro do contêiner */
+    justify-content: center; /* Centraliza horizontalmente os elementos dentro do contêiner */
+    height: 100vh; /* Altura total da tela */
+}
+
+.quadro h2 {
+    font-family: 'FonteLogo';
+    margin-top: 0px;
+    margin-bottom: 10px;
+    size: 0px;
+}
+
+.quadro p {
+    font-family: 'FonteTexto';
+    margin-bottom: 0%;
+    font-size: 80px;
+    margin-left: 50;
+}
+
+.botao {
+    font-family: 'FonteTexto';
+    font-size: 24px; 
+    padding: 15px 30px; 
+    border-radius: 10px;
+    text-align: center; 
+    display: inline-block;
+    background-color: #1EA385; 
+    color: #ebf7ed;
+    border: none; 
+    cursor: pointer;
+    margin-top: 30%;
+}
+
+.botao:hover {
+    background-color: #15805D; /* Cor de fundo ao passar o mouse */
+}
